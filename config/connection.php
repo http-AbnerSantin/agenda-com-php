@@ -6,7 +6,6 @@
     $db = "agenda";
 
     try {
-
         $conn = new PDO("mysql:host=$host; dbname=$db", $user, $pss);
 
         //ativar modo de erros   
