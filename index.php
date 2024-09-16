@@ -21,12 +21,12 @@
         <tbody>
           <?php foreach($contacts as $contact):?>
             <tr>
-              <td scope="row" class="col-id"><?= $contact['id']?></td>
+              <td scope="row" class="col-id" style="font-weight: bold;"><?= $contact['id']?></td>
               <td scope="row"><?= $contact['name']?></td>
               <td scope="row"><?= $contact['phone']?></td>
               <td class="actions">
                 <a href="<?= $BASE_URL?>show.php?id=<?=$contact["id"]?>"><i class="fas fa-eye check-icon"></i></a>
-                <a href="#"><i class="fas fa-edit edit-icon"></i></a>
+                <a href="<?= $BASE_URL?>edit.php?id=<?=$contact["id"]?>"><i class="fas fa-edit edit-icon"></i></a>
                 <button class="delete-btn" type="submit"><i class="fas fa-times delete-icon"></i></button>
               </td>
             </tr>

@@ -30,12 +30,12 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
             <a class="navbar-brand" href="<?php $BASE_URL?>index.php">Agenda PHP</a>
             <div>
                 <div class="navbar-nav">
                     <a class="nav-link active" id="home-link" href="<?php $BASE_URL?>index.php">Agenda</a>
-                    <a class="nav-link active" id="home-link" href="<?php $BASE_URL?>create.php">Adicionar Contato</a>
+                    <a class="nav-link active" href="<?php $BASE_URL?>create.php">Adicionar Contato</a>
                 </div>
             </div>
         </nav>

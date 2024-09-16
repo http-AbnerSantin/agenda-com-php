@@ -2,10 +2,6 @@ body {
   background-color: #eee;
 }
 
-nav a {
-  padding: 30px;
-}
-
 #main-title {
   text-align: center;
   margin: 15px 0 30px ;
@@ -105,3 +101,11 @@ nav a {
   max-width: 500px;
   margin: 0px auto;
  }
+
+
+/*MOBILE*/
+@media(max-width:480px) {
+  #home-link {
+    display: none;
+  }
+}
