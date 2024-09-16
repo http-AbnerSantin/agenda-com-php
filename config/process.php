@@ -37,6 +37,5 @@
     $contacts = $stmt->fetchAll();
   }
 
-  
-
 ?>
+
